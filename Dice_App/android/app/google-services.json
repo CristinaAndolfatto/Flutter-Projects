@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851915303636",
+    "project_id": "sacred-portal-354808",
+    "storage_bucket": "sacred-portal-354808.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851915303636:android:8e022e0b2c5b3e94f56941",
+        "android_client_info": {
+          "package_name": "com.example.dice_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjcnss0RdU9u51_SdIq75J35DT9daksjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
