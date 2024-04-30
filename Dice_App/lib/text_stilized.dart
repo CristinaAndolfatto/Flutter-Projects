@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart'; //we want to connect to another.dart file -> the material  design
 
 class TextStilized extends StatelessWidget{
-  const TextStilized(this.text, {super.key}); //this dice a Dart che il primo argomento posizionale del costruttore sarà la variabile con lo STESSO nome che definirò dentro la classe
+  const TextStilized(this.text, {super.key}); 
 
-  final String text; //final perchè il testo deve essere assegnato solo con argomento in ingresso e poi internamente non  sarà più cambiato
+  final String text;
 
   @override 
   Widget build(context) {

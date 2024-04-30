@@ -19,10 +19,10 @@ class DiceRoller extends StatefulWidget {
 class _DiceRollerState extends State<DiceRoller> {
     var currentDiceRoll = 2;
 
-    // define method roll_dice: quando viene premuto cambio immagine
+    // define method roll_dice
     void rollDice() {
       setState(() { 
-        // dice a flkutter che deve rieseguire il metodo build per avere una UI updated
+        // call build for updating the UI
         currentDiceRoll = randomizer.nextInt(6) + 1;
       });
     }
@@ -31,7 +31,7 @@ class _DiceRollerState extends State<DiceRoller> {
   Widget build(BuildContext context) {
     // TODO: implement build
    return Column (
-              mainAxisSize: MainAxisSize.min, //puts button and image in the center of the colum klenght
+              mainAxisSize: MainAxisSize.min, //puts button and image in the center of the colum lenght
               children: [
               Image.asset('assets/dice-images/dice-$currentDiceRoll.png', width: 200),
               TextButton(
@@ -42,6 +42,5 @@ class _DiceRollerState extends State<DiceRoller> {
                   padding: const EdgeInsets.all(20)),
                 child: const Text('Roll dice!')
                 )
-              ]); //N.B. column serve per mettere in colonna  più widget (per la riga c'è row)
-     }
-}//questa è funzione che va sempre messa quando creo StatefukWidget e deve avere  nome della classe con _ davanti
+              ]);      }
+}
